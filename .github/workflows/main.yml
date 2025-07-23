@@ -18,4 +18,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         # Add the -f flag to the end of the line
-        run: git push https://attentionseeker:$HF_TOKEN@huggingface.co/spaces/attentionseeker/Search_Engine_LLM main -f
+        run: git push https://attentionseeker:$HF_TOKEN@huggingface.co/spaces/attentionseeker/Search-Engine-LLM main -f
